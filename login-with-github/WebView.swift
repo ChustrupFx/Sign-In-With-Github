@@ -45,15 +45,23 @@ struct WebView: UIViewRepresentable {
         
         func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
             
-            let request = navigationAction.request
+            let requestURL = navigationAction.request.url
             
-            let requestURLString = request.url?.absoluteString
-            
-            
-            if (requestURLString!.hasPrefix("victorinacio.com")) {
-            
+            if (requestURL!.absoluteString.contains("victorinacio.com")) {
+                
+                let components = URLComponents(string: requestURL!.absoluteString)
+                
+                let code = components?.queryItems?.first(where: { item in
+                    item.name == "code"
+                })!.value
+                
+                
+                
+                
+                
+                
             }
-            
+
             decisionHandler(.allow)
         }
     }
