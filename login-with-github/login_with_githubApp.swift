@@ -11,7 +11,9 @@ import SwiftUI
 struct login_with_githubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }
         }
     }
 }

@@ -11,6 +11,7 @@
 		98EE72B22A8D55A700FC8704 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE72B12A8D55A700FC8704 /* ContentView.swift */; };
 		98EE72B42A8D55A800FC8704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EE72B32A8D55A800FC8704 /* Assets.xcassets */; };
 		98EE72B72A8D55A800FC8704 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EE72B62A8D55A800FC8704 /* Preview Assets.xcassets */; };
+		98EE72BE2A8D5AF400FC8704 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EE72BD2A8D5AF400FC8704 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		98EE72B12A8D55A700FC8704 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98EE72B32A8D55A800FC8704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EE72B62A8D55A800FC8704 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98EE72BD2A8D5AF400FC8704 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				98EE72B12A8D55A700FC8704 /* ContentView.swift */,
 				98EE72B32A8D55A800FC8704 /* Assets.xcassets */,
 				98EE72B52A8D55A800FC8704 /* Preview Content */,
+				98EE72BD2A8D5AF400FC8704 /* WebView.swift */,
 			);
 			path = "login-with-github";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EE72BE2A8D5AF400FC8704 /* WebView.swift in Sources */,
 				98EE72B22A8D55A700FC8704 /* ContentView.swift in Sources */,
 				98EE72B02A8D55A700FC8704 /* login_with_githubApp.swift in Sources */,
 			);
